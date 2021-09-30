@@ -1,19 +1,17 @@
-package movieCrawlerProject;
+package movieCrawlerProject.StartUp;
+
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Iterator;
 import java.util.List;
-import java.util.Set;
 
 import org.jsoup.nodes.Document;
 
+import movieCrawlerProject.Models.Detail;
+import movieCrawlerProject.Models.ImdbMovie;
 import movieCrawlerProject.BLL.MovieBLL;
 import movieCrawlerProject.BLL.MovieDetailsBLL;
 import movieCrawlerProject.Enum.Languages;
-import movieCrawlerProject.Models.Detail;
-import movieCrawlerProject.Models.ImdbMovie;
 import movieCrawlerProject.Utils.DocumentUtils;
 import movieCrawlerProject.Utils.JSoupUtils;
 

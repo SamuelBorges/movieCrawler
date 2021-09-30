@@ -23,7 +23,7 @@ public class PositiveCommentCrawler implements Runnable{
 	}
 	@Override
 	public void run() {
-		movie.setDetails(MovieDetailsBLL.findPositiveComment(movie.getDetail()));
+		movie.setDetail(MovieDetailsBLL.findPositiveComment(movie.getDetail()));
 	}
 
 }

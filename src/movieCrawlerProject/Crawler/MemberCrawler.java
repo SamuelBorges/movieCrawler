@@ -31,7 +31,7 @@ public class MemberCrawler implements Runnable {
 	@Override
 	public void run() {
 		details = getMembersDetails(movie.getDetail());
-		movie.setDetails(details);
+		movie.setDetail(details);
 	}
 
 	private static Detail getMembersDetails(Detail detail) {
